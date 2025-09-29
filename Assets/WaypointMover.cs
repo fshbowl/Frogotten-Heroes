@@ -7,7 +7,7 @@ public class WaypointMover : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 5f;
 
-    {SerializeField] private float distanceThreshold = 0.1f;
+    [SerializeField] private float distanceThreshold = 0.1f;
 
     private Transform currentWaypoint;
 
